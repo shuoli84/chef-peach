@@ -16,4 +16,5 @@ suites:
       - recipe[chef-peach::default]
       - recipe[chef-peach::configure]
       - recipe[statsdaemon-bitly::default]
+      - recipe[chef-peach::clearup]
     attributes:
