@@ -14,5 +14,6 @@ suites:
   - name: default
     run_list:
       - recipe[chef-peach::default]
+      - recipe[chef-peach::configure]
       - recipe[statsdaemon-bitly::default]
     attributes:
